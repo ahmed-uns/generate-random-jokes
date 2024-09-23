@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    background-color: #02001b;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: gold;
+    text-align: center;
+    padding: 2% auto 0;
+    background-color: rgb(26, 28, 102);
+    margin:2vb auto;
+    font-size: 150%;
+    width: 50%;   
+    
+}
+.card {
+    background-color: rgb(10, 11, 49);
+    margin: 5vb auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 65vb;
+    padding: 5vb ;
+    border: rgb(238, 210, 0) 5px dotted;
+}
+
+#emoji {
+    width: 70%;
+    font-size: 100px;
+    text-align: center;
+}
+#joke {
+    color: rgb(255, 255, 255);
+    height: 70%;
+    background-color: rgb(22, 28, 84);
+    width: 70%;
+    border-radius: 5%;
+    padding:4px 10%;
+    text-align: center;
+    font-size: 120%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 2px 2px 2px rgb(42, 52, 145);
+    
+}
+#btn {
+    color: #02001b;
+    box-shadow: 2px 2px 2px rgb(42, 52, 145);
+    background-color: gold;
+    width: 100px;
+    height: 20%;
+    border-radius: 3%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+#btn:hover {
+    color: gold;
+    background-color: #02001b;
+}
+footer {
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: thin;
+    text-align: center;
+    height: 3vb;
+}
